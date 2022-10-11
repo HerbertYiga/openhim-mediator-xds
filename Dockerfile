@@ -1,6 +1,5 @@
 # build stage build the jar with all our resources
 FROM maven:3.6-jdk-8 as build
-
 WORKDIR /app
 
 ADD pom.xml ./
